@@ -1,0 +1,13 @@
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\bin\Debug\Lab10LINQ.exe.config
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\bin\Debug\Lab10LINQ.exe
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\bin\Debug\Lab10LINQ.pdb
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\bin\Debug\Lab10LINQ.xml
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\obj\Debug\Lab10LINQ.vbprojResolveAssemblyReference.cache
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\obj\Debug\Lab10LINQ.UpdateSubjForm.resources
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\obj\Debug\Lab10LINQ.Main.resources
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\obj\Debug\Lab10LINQ.InsertForm.resources
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\obj\Debug\Lab10LINQ.Resources.resources
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\obj\Debug\Lab10LINQ.vbproj.GenerateResource.Cache
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\obj\Debug\Lab10LINQ.exe
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\obj\Debug\Lab10LINQ.xml
+C:\Users\4R7\Google Drive\ICT_KKU\322239_DatabaseApp\Ex_Program_lab\Lab10LINQ\Lab10LINQ\obj\Debug\Lab10LINQ.pdb

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="std5830203856" Class="DataClassesStudentDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.199.66.228;Initial Catalog=std5830203856;Persist Security Info=True;User ID=std5830203856" SettingsObjectName="Lab10LINQ.My.MySettings" SettingsPropertyName="std5830203856ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Department" Member="Departments">
+    <Type Name="Department">
+      <Column Name="dept_id" Type="System.String" DbType="NChar(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="dept_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Department_Student" Member="Students" ThisKey="dept_id" OtherKey="dept_id" Type="Student" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Subject" Member="Subjects">
+    <Type Name="Subject">
+      <Column Name="subj_id" Type="System.String" DbType="NChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="subj_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Subject_Enroll" Member="Enrolls" ThisKey="subj_id" OtherKey="subj_id" Type="Enroll" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Enroll" Member="Enrolls">
+    <Type Name="Enroll">
+      <Column Name="subj_id" Type="System.String" DbType="NChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="std_id" Type="System.String" DbType="NChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="term" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="academic_year" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Subject_Enroll" Member="Subject" ThisKey="subj_id" OtherKey="subj_id" Type="Subject" IsForeignKey="true" />
+      <Association Name="Student_Enroll" Member="Student" ThisKey="std_id" OtherKey="std_id" Type="Student" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Student" Member="Students">
+    <Type Name="Student">
+      <Column Name="std_id" Type="System.String" DbType="NChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="std_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="std_lastname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="dept_id" Type="System.String" DbType="NChar(2)" CanBeNull="true" />
+      <Column Name="std_address" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tel" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Association Name="Student_Enroll" Member="Enrolls" ThisKey="std_id" OtherKey="std_id" Type="Enroll" />
+      <Association Name="Department_Student" Member="Department" ThisKey="dept_id" OtherKey="dept_id" Type="Department" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
